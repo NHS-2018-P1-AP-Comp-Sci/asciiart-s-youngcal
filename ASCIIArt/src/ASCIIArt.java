@@ -14,8 +14,56 @@
  *
  */
 
+//Welcome to Callie's neighborhood!!
 public class ASCIIArt {
-	public static void main (String [] args) {
-		System.out.println("THIS IS MY ASCII ART!!!!");
+	public static void CallieNeighborhood () {
+		System.out.println("   +---\\");
+		System.out.println("  + +---\\");
+		System.out.println(" +   +---\\");
+		System.out.println("+     +---\\");
+		callieWalls();
+		System.out.println("|_____|___|");
+		System.out.println("\n");
+		callieRoad();
+		callieTree();
+		callieHouse();
+		
 	}
+	//The walls to each house!
+	public static void callieWalls() {
+		System.out.println("|     |   |");
+		System.out.println("|     |   |");
+		System.out.println("|     |   |");
+		
+	}
+	//The road connecting the houses!
+	public static void callieRoad() {
+		System.out.println(" |   |  ");
+		System.out.println(" |   |  ");
+		System.out.println(" |   |  ");
+		
+	}
+	//The beautiful Washington evergreen on the side of the road!!
+	public static void callieTree() {
+		System.out.println(" |   | /|\\");
+		System.out.println(" |   | /|\\");
+		System.out.println(" |   | /|\\");
+		System.out.println(" |   | /|\\");
+		
+	}
+	//My house, and my other house because I'm rich.
+	public static void callieHouse() {
+		System.out.println("   +---\\");
+		System.out.println("  + +---\\");
+		System.out.println(" +   +---\\");
+		System.out.println("+     +---\\");
+		callieWalls();
+		System.out.println("|_____|___|");
+		
+		
+	}
+	public static void main (String[] args) {
+		CallieNeighborhood ();
+	}
+
 }
